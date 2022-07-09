@@ -1,0 +1,205 @@
+body {background: #F8C471;
+    }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.título {background:#D6EAF8; color: green; text-decoration: underline;  font-size: xxx-large;
+}
+h2 {text-decoration: underline;}
+p {font-size: large;}
+.lista {color: brown; text-decoration: underline;}
+.preparación {color: green; text-decoration: underline;}
+
+header {
+  flex-direction: column;
+  background: #D6EAF8;
+}
+
+.título {
+  display: flex;
+  justify-content: center;
+}
+
+main p {
+  background-color: #F7DC6F;
+}
+
+
+  section .recetas {
+    width: 80%;
+  }
+
+  nav a:hover {
+    background: yellow;
+    color: blue;
+
+  }
+  nav  {
+    width: 100%;
+    height: 10vh;
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    font-size: large;
+
+  }
+  section a:hover {
+    background-color: green;
+  }
+
+  .imagen:hover {
+    border-radius: 25%;
+    border-style: groove;
+  }
+  section iframe {
+    width: 35%;
+    height: 15%;
+
+  }
+  footer img {
+    width: 2%;
+    height: 4%;
+  }
+  section h1:hover {
+    color: black;
+  }
+  footer img:hover {
+    width: 3%;
+  }
+  main h2:hover {
+    text-align: center;
+    width: 20%;
+  }
+  section .típicas:hover {
+    text-align: center;
+    width: 50%;
+  }
+  .recetas {
+
+    background-color: #D6EAF8;
+    }
+  footer {
+    background-color: gray;
+
+  }
+  footer img {
+    border-radius: 25%;
+  }
+
+  .imagen {
+    width: 41vw;
+  }
+
+  section ul li {
+    height: 3rem;
+
+  }
+  section ol li {
+    height: 5rem;
+
+  }
+
+  .ingredientes-fotos {
+    display: flex;
+    justify-content: space-around;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  main h2 p {
+    display: flex;
+    justify-content: flex-start;
+  }
+aside {
+  display: flex;
+  flex-direction: column;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+iframe {
+  height: 35%;
+  width: 41vw;
+}
+
+.listapreparacion { font-size: 14px; }
+
+
+
+@media (min-width: 600px) {
+  .listapreparacion { font-size: 15px; }
+}
+
+
+@media (min-width: 768px) {
+  .listapreparacion { font-size: 16px; }
+}
+
+@media (min-width: 992px) {
+  .listapreparacion { font-size: 17px; }
+}
+
+@media (max-width: 575px) {
+  .imagen {
+    display: none;
+  }
+}
+.fotocelu img {
+  width: 41vw;
+  height: 30vh;
+}
+@media (min-width: 575px) {
+  .fotocelu {
+    display: none;
+  }
+}
+@media (min-width: 575px) {
+  .tiktok {
+    display: none;
+  }
+}
+
+
+.card {
+  height: 100%;
+
+}
+
+.card img {
+  height: 50%;
+}
+nav .container-fluid {
+  background-color: brown;
+}
+nav {
+  background-color: brown;
+
+}
+
+ .fijo {
+  height: 10vh;
+    width: auto;
+    border-radius: 10%;
+    border-color: green;
+    top: 88%;
+    margin-left: 88%;
+    position: fixed;
+
+}
+.fijo:hover {
+  height: 12vh;
+  12vw;
+}
+.boton {
+  display: flex;
+  align-items: baseline;
+}
